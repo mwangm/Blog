@@ -1,0 +1,147 @@
+.clear:after {
+    clear: both;
+    display: block;
+    visibility: hidden;
+    content: "";
+}
+
+a{
+    text-decoration: none;
+}
+
+body {
+    background-image: url("image/background.jpg");
+}
+
+.top-line {
+    background: url("image/header.jpg") repeat-x;
+    height: 60px;
+}
+
+.container, .footer-container{
+    width: 920px;
+    margin: 0 auto;
+    border: 1px solid #ffc0cb;
+}
+
+header {
+    margin-bottom: 40px;
+}
+
+.logo {
+    background: url("image/logo.png") 0 0;
+    width: 385px;
+    height: 55px;
+}
+
+.logo:hover {
+    background: url("image/logo.png") 0 54px;
+}
+
+.menu {
+    height: 90px;
+    background: url("image/nav.jpeg") -106px -95px;
+    position: relative;
+}
+
+.menu ul {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+
+}
+
+.menu ul li {
+    float: left;
+    margin-right: 20px;
+
+}
+
+.menu  a {
+    text-indent: -119988px;
+    overflow: hidden;
+    display: block;
+    height: 30px;
+    background-repeat: no-repeat;
+}
+
+.menu-home {
+    background: url("image/menu-home.gif");
+    width: 36px;
+}
+
+.menu-about {
+    background: url("image/menu-about2.gif");
+    width: 42px;
+}
+
+.menu-themes {
+    background: url("image/menu-themes2.gif");
+    width: 48px;
+}
+
+.menu-contact {
+    background: url("image/menu-contact2.gif");
+    width: 55px;
+}
+
+.menu-subscribe {
+    background: url("image/menu-subscribe2.gif");
+    width: 65px;
+}
+
+.menu a:hover {
+    background-position: 0px -33px;
+}
+
+.content {
+    float: left;
+    min-height: 650px;
+    width: 580px;
+    border: 1px solid #ffc0cb;
+}
+
+.sidebar {
+    float: right;
+    min-height: 650px;
+    width: 318px;
+    padding: 0 0 50px 20px ;
+    background: url("image/vr-line.jpg") left no-repeat
+}
+
+.footer {
+    height: 596px;
+    background: url("image/footerbg.jpg") bottom;
+    color: white;
+}
+
+.footer-container{
+    padding-top: 180px;
+}
+
+.footer-item{
+    margin: 0 30px;
+    float: left;
+}
+
+
+.footer-item .item-title{
+    padding-bottom: 10px;
+    background: url("image/footer-hr-line.gif") 0 25px no-repeat;
+    font:bold 18px Tahoma, Helvetica, "Trebuchet MS", Arial, Verdana, Sans-serif;
+}
+
+.footer-item li{
+    padding: 5px 10px 5px 10px;
+    background: url("image/footerulbg.gif")  0 9px no-repeat;
+    font:11px Verdana,'Lucida Grande', Arial, "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.footer-item a{
+    color: white;
+}
+
+.footer-item a:hover{
+    color: #FD5D83;
+}
+

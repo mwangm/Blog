@@ -1,0 +1,70 @@
+.avatar-me{
+    display: block;
+    text-indent: -119988px;
+    width: 318px;
+    height: 245px;
+    background: url(image/avatar-me.jpg) no-repeat;
+}
+
+.sidebar-item{
+    margin-top: 30px;
+    font: 11px Verdana,'Lucida Grande', Arial, "Trebuchet MS", Helvetica, sans-serif;
+    line-height: 15px;
+    color: #666;
+}
+
+.sidebar-item .item-title{
+    color: #4D3626;
+    margin-bottom: 5px;
+    padding-bottom:10px;
+    background: url(image/sidebar-hr-line.jpg) left bottom no-repeat;
+    font: bold 18px Tahoma, Helvetica, "Trebuchet MS", Arial, Verdana, Sans-serif;
+}
+
+.subscribe-text{
+    display: block;
+}
+
+.subscribe-text:before{
+    float: right;
+    background: url(image/rss.gif);
+    width: 100px;
+    height: 68px;
+    content: "";
+}
+
+.sidebar-item a{
+    color: #666;
+    display: block;
+    padding-left: 10px;
+    padding: 5px 0 5px 10px;
+    background: url(image/widgetbg.gif) 0 10px no-repeat;
+}
+
+.search {
+  position: relative;
+  height: 42px;
+  width: 260px;
+  background: url("image/searchbox.gif") no-repeat;
+}
+
+.search-text {
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  height: 30px;
+  width: 190px;
+  padding: 0 10px;
+  margin:5px; 
+  background: transparent;
+}
+
+.search-btn {
+  position: absolute;
+  right:0;
+  background: url("image/searchgo.gif") top no-repeat;
+  height: 41px;
+  width: 43px;
+  border: none;
+  padding: 0 0 0 0;
+}

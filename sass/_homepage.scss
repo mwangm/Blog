@@ -1,0 +1,111 @@
+@import "compass";
+
+.post {
+    margin-bottom: 20px;
+    font: 12px/1.7 Verdana, 'Lucida Grande', Arial, "Trebuchet MS", Helvetica, sans-serif;
+    min-height: 300px;
+    border: 1px solid #ffc0cb;
+    @include background(image-url("image/hr-line.gif"));
+}
+
+.post a:hover{
+    color: #FD5D83;
+}
+
+.post-side {
+    float:left;
+    width: 160px;
+    border: 1px solid #ffc0cb;
+}
+
+.post-side span {
+    display: block;
+    padding: 5px 0 5px 10px;
+    border-bottom: 1px solid #DFDFDF;
+    font: 10px Verdana, 'Lucida Grande', Arial, "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.post-side .date {
+    color: #999;
+}
+.post-side .social-share a {
+    display: block;
+    float: left;
+    height: 26px;
+    width: 26px;
+    text-indent: -199999px;
+    background-repeat: no-repeat;
+}
+
+.post-main{
+    width: 380px;
+    margin-left:180px;
+}
+
+.social-share a:hover{
+    background-position: bottom
+}
+
+.facebook-share{
+    background-image: url("image/share-facebook.gif");
+}
+
+.twitter-share{
+    background-image: url("image/share-twitter.gif");
+}
+
+.post h2  a{
+    font:bold 24px Tahoma, Helvetica, "Trebuchet MS", Arial, Verdana, Sans-serif;
+    color: #FD5D83;
+}
+
+.post h2 a:hover{
+    color: #5DB4FD;;
+}
+
+.comment-heart a{
+    display: block;
+    float: right;
+    color: white;
+    padding: 6px 12px 12px 12px;
+    font: bold 14px Georgia, "Times New Roman", Times, serif;
+    background: url("image/commentheart.gif") no-repeat;
+}
+
+.comment-heart a:hover{
+    color: #4D3626;
+}
+
+.post-content p{
+    margin: 10px 0 20px 0;
+}
+
+.continue-reading a{
+    color: #5DB4FD;
+    font-weight: bold;
+}
+
+.pagination{
+    color: #999;
+    margin-top: 50px;
+    font: 11px Verdana,'Lucida Grande', Arial, "Trebuchet MS", Helvetica, sans-serif;
+}
+.pagination span:first-child{
+    margin-right: 20px;
+}
+
+.pagination span.current-page{
+    font-weight: bold;
+}
+
+.pagination a, page-ellipses{
+    color: #999;
+    padding: 3px 5px;
+    border: 1px solid #BFBFBF;
+}
+
+.pagination a:hover{
+    border: 1px solid black;
+    color: #87cefa;
+}
+

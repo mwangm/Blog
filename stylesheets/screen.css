@@ -1,0 +1,447 @@
+/* line 17, ../../.rvm/gems/ruby-1.8.7-p352@homework/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../.rvm/gems/ruby-1.8.7-p352@homework/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../.rvm/gems/ruby-1.8.7-p352@homework/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../.rvm/gems/ruby-1.8.7-p352@homework/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../.rvm/gems/ruby-1.8.7-p352@homework/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../.rvm/gems/ruby-1.8.7-p352@homework/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../.rvm/gems/ruby-1.8.7-p352@homework/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../.rvm/gems/ruby-1.8.7-p352@homework/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../.rvm/gems/ruby-1.8.7-p352@homework/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 3, ../sass/_homepage.scss */
+.post {
+  margin-bottom: 20px;
+  font: 12px/1.7 Verdana, "Lucida Grande", Arial, "Trebuchet MS", Helvetica, sans-serif;
+  min-height: 300px;
+  border: 1px solid #ffc0cb;
+  background: url('/stylesheets/image/hr-line.gif?1353591162');
+}
+
+/* line 11, ../sass/_homepage.scss */
+.post a:hover {
+  color: #FD5D83;
+}
+
+/* line 15, ../sass/_homepage.scss */
+.post-side {
+  float: left;
+  width: 160px;
+  border: 1px solid #ffc0cb;
+}
+
+/* line 21, ../sass/_homepage.scss */
+.post-side span {
+  display: block;
+  padding: 5px 0 5px 10px;
+  border-bottom: 1px solid #DFDFDF;
+  font: 10px Verdana, 'Lucida Grande', Arial, "Trebuchet MS", Helvetica, sans-serif;
+}
+
+/* line 28, ../sass/_homepage.scss */
+.post-side .date {
+  color: #999;
+}
+
+/* line 31, ../sass/_homepage.scss */
+.post-side .social-share a {
+  display: block;
+  float: left;
+  height: 26px;
+  width: 26px;
+  text-indent: -199999px;
+  background-repeat: no-repeat;
+}
+
+/* line 40, ../sass/_homepage.scss */
+.post-main {
+  width: 380px;
+  margin-left: 180px;
+}
+
+/* line 45, ../sass/_homepage.scss */
+.social-share a:hover {
+  background-position: bottom;
+}
+
+/* line 49, ../sass/_homepage.scss */
+.facebook-share {
+  background-image: url("image/share-facebook.gif");
+}
+
+/* line 53, ../sass/_homepage.scss */
+.twitter-share {
+  background-image: url("image/share-twitter.gif");
+}
+
+/* line 57, ../sass/_homepage.scss */
+.post h2 a {
+  font: bold 24px Tahoma, Helvetica, "Trebuchet MS", Arial, Verdana, Sans-serif;
+  color: #FD5D83;
+}
+
+/* line 62, ../sass/_homepage.scss */
+.post h2 a:hover {
+  color: #5DB4FD;
+}
+
+/* line 66, ../sass/_homepage.scss */
+.comment-heart a {
+  display: block;
+  float: right;
+  color: white;
+  padding: 6px 12px 12px 12px;
+  font: bold 14px Georgia, "Times New Roman", Times, serif;
+  background: url("image/commentheart.gif") no-repeat;
+}
+
+/* line 75, ../sass/_homepage.scss */
+.comment-heart a:hover {
+  color: #4D3626;
+}
+
+/* line 79, ../sass/_homepage.scss */
+.post-content p {
+  margin: 10px 0 20px 0;
+}
+
+/* line 83, ../sass/_homepage.scss */
+.continue-reading a {
+  color: #5DB4FD;
+  font-weight: bold;
+}
+
+/* line 88, ../sass/_homepage.scss */
+.pagination {
+  color: #999;
+  margin-top: 50px;
+  font: 11px Verdana,'Lucida Grande', Arial, "Trebuchet MS", Helvetica, sans-serif;
+}
+
+/* line 93, ../sass/_homepage.scss */
+.pagination span:first-child {
+  margin-right: 20px;
+}
+
+/* line 97, ../sass/_homepage.scss */
+.pagination span.current-page {
+  font-weight: bold;
+}
+
+/* line 101, ../sass/_homepage.scss */
+.pagination a, page-ellipses {
+  color: #999;
+  padding: 3px 5px;
+  border: 1px solid #BFBFBF;
+}
+
+/* line 107, ../sass/_homepage.scss */
+.pagination a:hover {
+  border: 1px solid black;
+  color: #87cefa;
+}
+
+/* line 1, ../sass/_sidebar.scss */
+.avatar-me {
+  display: block;
+  text-indent: -119988px;
+  width: 318px;
+  height: 245px;
+  background: url(image/avatar-me.jpg) no-repeat;
+}
+
+/* line 9, ../sass/_sidebar.scss */
+.sidebar-item {
+  margin-top: 30px;
+  font: 11px Verdana,'Lucida Grande', Arial, "Trebuchet MS", Helvetica, sans-serif;
+  line-height: 15px;
+  color: #666;
+}
+
+/* line 16, ../sass/_sidebar.scss */
+.sidebar-item .item-title {
+  color: #4D3626;
+  margin-bottom: 5px;
+  padding-bottom: 10px;
+  background: url(image/sidebar-hr-line.jpg) left bottom no-repeat;
+  font: bold 18px Tahoma, Helvetica, "Trebuchet MS", Arial, Verdana, Sans-serif;
+}
+
+/* line 24, ../sass/_sidebar.scss */
+.subscribe-text {
+  display: block;
+}
+
+/* line 28, ../sass/_sidebar.scss */
+.subscribe-text:before {
+  float: right;
+  background: url(image/rss.gif);
+  width: 100px;
+  height: 68px;
+  content: "";
+}
+
+/* line 36, ../sass/_sidebar.scss */
+.sidebar-item a {
+  color: #666;
+  display: block;
+  padding-left: 10px;
+  padding: 5px 0 5px 10px;
+  background: url(image/widgetbg.gif) 0 10px no-repeat;
+}
+
+/* line 44, ../sass/_sidebar.scss */
+.search {
+  position: relative;
+  height: 42px;
+  width: 260px;
+  background: url("image/searchbox.gif") no-repeat;
+}
+
+/* line 51, ../sass/_sidebar.scss */
+.search-text {
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  height: 30px;
+  width: 190px;
+  padding: 0 10px;
+  margin: 5px;
+  background: transparent;
+}
+
+/* line 62, ../sass/_sidebar.scss */
+.search-btn {
+  position: absolute;
+  right: 0;
+  background: url("image/searchgo.gif") top no-repeat;
+  height: 41px;
+  width: 43px;
+  border: none;
+  padding: 0 0 0 0;
+}
+
+/* line 1, ../sass/_layout.scss */
+.clear:after {
+  clear: both;
+  display: block;
+  visibility: hidden;
+  content: "";
+}
+
+/* line 8, ../sass/_layout.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 12, ../sass/_layout.scss */
+body {
+  background-image: url("image/background.jpg");
+}
+
+/* line 16, ../sass/_layout.scss */
+.top-line {
+  background: url("image/header.jpg") repeat-x;
+  height: 60px;
+}
+
+/* line 21, ../sass/_layout.scss */
+.container, .footer-container {
+  width: 920px;
+  margin: 0 auto;
+  border: 1px solid #ffc0cb;
+}
+
+/* line 27, ../sass/_layout.scss */
+header {
+  margin-bottom: 40px;
+}
+
+/* line 31, ../sass/_layout.scss */
+.logo {
+  background: url("image/logo.png") 0 0;
+  width: 385px;
+  height: 55px;
+}
+
+/* line 37, ../sass/_layout.scss */
+.logo:hover {
+  background: url("image/logo.png") 0 54px;
+}
+
+/* line 41, ../sass/_layout.scss */
+.menu {
+  height: 90px;
+  background: url("image/nav.jpeg") -106px -95px;
+  position: relative;
+}
+
+/* line 47, ../sass/_layout.scss */
+.menu ul {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+/* line 54, ../sass/_layout.scss */
+.menu ul li {
+  float: left;
+  margin-right: 20px;
+}
+
+/* line 60, ../sass/_layout.scss */
+.menu a {
+  text-indent: -119988px;
+  overflow: hidden;
+  display: block;
+  height: 30px;
+  background-repeat: no-repeat;
+}
+
+/* line 68, ../sass/_layout.scss */
+.menu-home {
+  background: url("image/menu-home.gif");
+  width: 36px;
+}
+
+/* line 73, ../sass/_layout.scss */
+.menu-about {
+  background: url("image/menu-about2.gif");
+  width: 42px;
+}
+
+/* line 78, ../sass/_layout.scss */
+.menu-themes {
+  background: url("image/menu-themes2.gif");
+  width: 48px;
+}
+
+/* line 83, ../sass/_layout.scss */
+.menu-contact {
+  background: url("image/menu-contact2.gif");
+  width: 55px;
+}
+
+/* line 88, ../sass/_layout.scss */
+.menu-subscribe {
+  background: url("image/menu-subscribe2.gif");
+  width: 65px;
+}
+
+/* line 93, ../sass/_layout.scss */
+.menu a:hover {
+  background-position: 0px -33px;
+}
+
+/* line 97, ../sass/_layout.scss */
+.content {
+  float: left;
+  min-height: 650px;
+  width: 580px;
+  border: 1px solid #ffc0cb;
+}
+
+/* line 104, ../sass/_layout.scss */
+.sidebar {
+  float: right;
+  min-height: 650px;
+  width: 318px;
+  padding: 0 0 50px 20px;
+  background: url("image/vr-line.jpg") left no-repeat;
+}
+
+/* line 112, ../sass/_layout.scss */
+.footer {
+  height: 596px;
+  background: url("image/footerbg.jpg") bottom;
+  color: white;
+}
+
+/* line 118, ../sass/_layout.scss */
+.footer-container {
+  padding-top: 180px;
+}
+
+/* line 122, ../sass/_layout.scss */
+.footer-item {
+  margin: 0 30px;
+  float: left;
+}
+
+/* line 128, ../sass/_layout.scss */
+.footer-item .item-title {
+  padding-bottom: 10px;
+  background: url("image/footer-hr-line.gif") 0 25px no-repeat;
+  font: bold 18px Tahoma, Helvetica, "Trebuchet MS", Arial, Verdana, Sans-serif;
+}
+
+/* line 134, ../sass/_layout.scss */
+.footer-item li {
+  padding: 5px 10px 5px 10px;
+  background: url("image/footerulbg.gif") 0 9px no-repeat;
+  font: 11px Verdana,'Lucida Grande', Arial, "Trebuchet MS", Helvetica, sans-serif;
+}
+
+/* line 140, ../sass/_layout.scss */
+.footer-item a {
+  color: white;
+}
+
+/* line 144, ../sass/_layout.scss */
+.footer-item a:hover {
+  color: #FD5D83;
+}
